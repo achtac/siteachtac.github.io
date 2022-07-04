@@ -2265,3 +2265,765 @@ font-size: 15px;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:400px) {
+
+
+  body{
+    padding: 0;
+    margin: 0;
+    background:#e6e6e6;
+  }
+  body,h1,h2,h3,h4,h5,p,strong{
+font-family: source sans ;
+  }
+  #banniere h2 {
+    width:60%;
+    font-size:25px;
+  }
+
+
+#page  #noti{
+    display: none;
+  }
+
+
+
+
+  #page #competences{
+    height:auto;
+    padding-bottom:752px;
+    width:100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+
+
+  }
+  #competences h3{
+    width: 90%;
+    font-size: 25px;
+  }
+  #c1{
+    height:220px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    }
+  #c1 span{
+    height: 200px;
+    width: 55%;
+    font-size: 65px;
+    background:  #3385ff;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #c1 #contenu{
+    width: 100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  #contenu h2{
+    text-transform: uppercase;
+    font-size:12px;
+
+  }
+  #contenu p{
+    width:100%;
+    font-size: 15px;
+  }
+  #competences #exp{
+    height:560px;
+    width:100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-bet; */
+  }
+  #competences #exp img{
+    height: 350px;
+    width:100%;
+  }
+  #competences #exp #txt{
+    width:92%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+
+  }
+  #txt #e1,#e2,#e3{
+    border-radius: 8px;
+
+    /* border:1px solid #3385ff ; */
+    height:50px;
+    width:100%;
+    outline:2px solid #3385ff;
+    outline-offset: 3px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  #txt i{
+width:20%;
+background: blue;
+font-size: 15px;
+ display: none;
+  }
+
+  #txt #e1,#e2,#e3 strong{
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  #competences #initiatives{
+    height:550px;
+    width:100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #initiatives #i1{
+    height:50%;
+    width: 100%;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #initiatives #i1 #circle{
+
+    height: 200px;
+    width:100%;
+    background: black;
+  border-radius: 0px;
+  border: none;
+    background-image:url("./image/2.jpg");
+    background-position: center;
+
+
+
+  }
+  #initiatives #i3{
+    height:25%;
+    width: 100%;
+    background: #3385ff;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+  }
+  #i3 em{
+    display: none;
+
+  }
+
+  #initiatives #i2{
+    height:20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+  #i2 i{
+    width:55px;
+    font-size: 35px;
+    color:#3385ff;
+    text-align: center;
+  }
+
+  #competences #projets{
+      height:auto;
+    width:100%;
+
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  #projets #p1{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 25px;
+
+  }
+  #p1 #num{
+    height:70px;
+    width: 98%;
+    background: royalblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    order:1;
+
+  }
+  #p1 #description{
+    height:200px;
+    width: 98%;
+    border:2px solid royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+     word-wrap: break-word;
+
+
+  }
+  #description h4{
+    width:95%;
+    height: 0PX;
+    font-size:15px;
+  }
+  #description p{
+     width: 95%;
+  }
+
+
+
+  footer{
+    width:100%;
+    height: auto;
+    background:#262626;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    padding-bottom:115px;
+    margin-top:111px;
+
+  }
+  footer #f1{
+    height: 90%;
+    width:100%;
+    /* background: red; */
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #f1 p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #f1 p i{
+    width: 15%;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  #f1 p strong{
+    width: 20%;
+      text-align: left;
+  }
+  #f1 form{
+    height: 250px;
+    width: 100%;
+
+  }
+
+  #f1:nth-child(3){
+    background: #333333 ;
+
+  }
+  form input[type="email"]{
+    height: 45px;
+    width:80%;
+    border-radius: 4px;
+    border:none;
+
+  }
+  form input[type="submit"],input[type="reset"]{
+    height: 35px;
+    width:40%;
+    border:none;
+    cursor: pointer;
+    background: royalblue;
+    color:white;
+    /* border-radius: 14px; */
+
+  }
+  /* firstbase.io
+  stripeaddlass.com; */
+  form input[type="submit"]:hover,input[type="reset"]:hover{
+    height: 35px;
+    width:40%;
+    border:none;
+    color:black;
+    /* border-radius: 14px; */
+    background:orange;
+
+    cursor: pointer;
+
+  }
+  #fleche{
+
+      position: fixed;
+      top:93%;
+       left:85%;
+
+
+
+
+  }
+  #fleche button{
+    height: 32px;
+    width: 35px;
+       background: royalblue;
+       border:none;
+       border-radius:25px 25px 8px 8px;
+       color: white;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:500px) {
+
+
+  body{
+    padding: 0;
+    margin: 0;
+    background:#e6e6e6;
+  }
+  body,h1,h2,h3,h4,h5,p,strong{
+font-family: source sans ;
+  }
+  #banniere h2 {
+    width:60%;
+    font-size:25px;
+  }
+
+
+#page  #noti{
+    display: none;
+  }
+
+
+
+
+  #page #competences{
+    height:auto;
+    padding-bottom:752px;
+    width:100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+
+
+  }
+  #competences h3{
+    width: 90%;
+    font-size: 25px;
+  }
+  #c1{
+    height:220px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    }
+  #c1 span{
+    height: 200px;
+    width: 55%;
+    font-size: 65px;
+    background:  #3385ff;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  #c1 #contenu{
+    width: 100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  #contenu h2{
+    text-transform: uppercase;
+    font-size:12px;
+
+  }
+  #contenu p{
+    width:100%;
+    font-size: 15px;
+  }
+  #competences #exp{
+    height:560px;
+    width:100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-bet; */
+  }
+  #competences #exp img{
+    height: 350px;
+    width:100%;
+  }
+  #competences #exp #txt{
+    width:92%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+
+  }
+  #txt #e1,#e2,#e3{
+    border-radius: 8px;
+
+    /* border:1px solid #3385ff ; */
+    height:50px;
+    width:100%;
+    outline:2px solid #3385ff;
+    outline-offset: 3px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  #txt i{
+width:20%;
+background: blue;
+font-size: 15px;
+ display: none;
+  }
+
+  #txt #e1,#e2,#e3 strong{
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  #competences #initiatives{
+    height:550px;
+    width:100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #initiatives #i1{
+    height:50%;
+    width: 100%;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #initiatives #i1 #circle{
+
+    height: 200px;
+    width:100%;
+    background: black;
+  border-radius: 0px;
+  border: none;
+    background-image:url("./image/2.jpg");
+    background-position: center;
+
+
+
+  }
+  #initiatives #i3{
+    height:25%;
+    width: 100%;
+    background: #3385ff;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+  }
+  #i3 em{
+    display: none;
+
+  }
+
+  #initiatives #i2{
+    height:20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+  #i2 i{
+    width:55px;
+    font-size: 35px;
+    color:#3385ff;
+    text-align: center;
+  }
+
+  #competences #projets{
+      height:auto;
+    width:100%;
+
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  #projets #p1{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 25px;
+
+  }
+  #p1 #num{
+    height:70px;
+    width: 98%;
+    background: royalblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    order:1;
+
+  }
+  #p1 #description{
+    height:200px;
+    width: 98%;
+    border:2px solid royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+     word-wrap: break-word;
+
+
+  }
+  #description h4{
+    width:95%;
+    height: 0PX;
+    font-size:15px;
+  }
+  #description p{
+     width: 95%;
+  }
+
+
+
+  footer{
+    width:100%;
+    height: auto;
+    background:#262626;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    padding-bottom:115px;
+    margin-top:111px;
+
+  }
+  footer #f1{
+    height: 90%;
+    width:100%;
+    /* background: red; */
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #f1 p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #f1 p i{
+    width: 15%;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  #f1 p strong{
+    width: 20%;
+      text-align: left;
+  }
+  #f1 form{
+    height: 250px;
+    width: 100%;
+
+  }
+
+  #f1:nth-child(3){
+    background: #333333 ;
+
+  }
+  form input[type="email"]{
+    height: 45px;
+    width:80%;
+    border-radius: 4px;
+    border:none;
+
+  }
+  form input[type="submit"],input[type="reset"]{
+    height: 35px;
+    width:40%;
+    border:none;
+    cursor: pointer;
+    background: royalblue;
+    color:white;
+    /* border-radius: 14px; */
+
+  }
+  /* firstbase.io
+  stripeaddlass.com; */
+  form input[type="submit"]:hover,input[type="reset"]:hover{
+    height: 35px;
+    width:40%;
+    border:none;
+    color:black;
+    /* border-radius: 14px; */
+    background:orange;
+
+    cursor: pointer;
+
+  }
+  #fleche{
+
+      position: fixed;
+      top:93%;
+       left:85%;
+
+
+
+
+  }
+  #fleche button{
+    height: 32px;
+    width: 35px;
+       background: royalblue;
+       border:none;
+       border-radius:25px 25px 8px 8px;
+       color: white;
+  }
+
+
+
+
+
+
+
+}
