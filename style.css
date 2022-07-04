@@ -1,7 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Pacifico&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html{
   scroll-behavior: smooth;
@@ -14,8 +11,7 @@ body{
   background:#e6e6e6;
 }
 body,h1,h2,h3,h4,h5,p,strong{
-  font-family:Oswald,sans-serif;
-
+font-family: roboto;
 }
 
 header{
@@ -1115,8 +1111,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-    font-family: candara,copperplate gothic,didot,sans-serif;
-
+font-family: roboto;
   }
   header{
     z-index: 100;
@@ -1541,8 +1536,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong,button{
-    font-family: candara,copperplate gothic,didot,sans-serif;
-
+font-family: roboto;
   }
 
   #banniere h2 {
@@ -1930,8 +1924,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-    font-family: candara,copperplate gothic,didot,sans-serif;
-
+font-family: roboto;
   }
   #banniere h2 {
     width:60%;
