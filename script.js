@@ -9,7 +9,10 @@ window.addEventListener("scroll",(e) =>{
 },false);
 
 
-home.onclick = ()=> {
+home.addEventListener('click',affich);
+
+function affich(e){
+  e.preventDefault();
   const sr = ScrollReveal({
     reset:true
   });
@@ -25,6 +28,31 @@ home.onclick = ()=> {
   });
 
    homebar.style.display ="block";
+
+      home.addEventListener("click",cacher)
+      function cacher(e){
+          e.preventDefault();
+
+
+          const sr = ScrollReveal({
+            reset:true
+          });
+
+
+          sr.reveal("#homebar",{
+
+            duration:500,
+            Delay:2,
+            distance:"40px",
+            origin:"top"
+
+          });
+
+           homebar.style.display ="none";
+
+
+
+      }
 
 }
 
