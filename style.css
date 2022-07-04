@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Pacifico&display=swap');
+
+
+
 html{
   scroll-behavior: smooth;
 
@@ -10,7 +14,7 @@ body{
   background:#e6e6e6;
 }
 body,h1,h2,h3,h4,h5,p,strong{
-  font-family: candara,copperplate gothic,didot,sans-serif;
+  font-family: Oswald,sans-serif;
 
 }
 
@@ -2120,7 +2124,7 @@ font-size: 15px;
     width: 100%;
     display: flex;
     flex-direction: column;
-     
+
     margin-bottom: 25px;
 
   }
