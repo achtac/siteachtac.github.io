@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
-html{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=Source+Sans+Pro&display=swap');html{
   scroll-behavior: smooth;
 
 }
@@ -10,7 +9,7 @@ body{
   background:#e6e6e6;
 }
 body,h1,h2,h3,h4,h5,p,strong{
-font-family: roboto;
+font-family: source sans ;
 }
 p,strong,{
   font-weight: bold;
@@ -1113,7 +1112,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-font-family: roboto;
+font-family: source sans ;
   }
   header{
     z-index: 100;
@@ -1538,7 +1537,7 @@ font-family: roboto;
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong,button{
-font-family: roboto;
+font-family: source sans ;
   }
 
   #banniere h2 {
@@ -1926,7 +1925,7 @@ font-family: roboto;
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-font-family: roboto;
+font-family: source sans ;
   }
   #banniere h2 {
     width:60%;
