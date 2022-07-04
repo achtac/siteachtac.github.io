@@ -696,7 +696,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 }
 
 }
-.fa-align-justify {
+.fa-align-justify,.fa-times {
   width: 50px;
   font-size: 35px;
 }

@@ -9,57 +9,46 @@ window.addEventListener("scroll",(e) =>{
 },false);
 
 
-home.addEventListener('click',affich);
-
-function affich(e){
-  e.preventDefault();
-  const sr = ScrollReveal({
-    reset:true
-  });
-
-
-  sr.reveal("#homebar",{
-
-    duration:500,
-    Delay:2,
-    distance:"40px",
-    origin:"top"
-
-  });
-
-   homebar.style.display ="block";
-
-      home.addEventListener("click",cacher)
-      function cacher(e){
-          e.preventDefault();
-
-
-          const sr = ScrollReveal({
-            reset:true
-          });
-
-
-          sr.reveal("#homebar",{
-
-            duration:500,
-            Delay:2,
-            distance:"40px",
-            origin:"top"
-
-          });
-
-           homebar.style.display ="none";
 
 
 
-      }
-
-}
 
 
-function close(e){
-  e.preventDefault();
 
-   homebar.style.display ="none";
 
-}
+
+
+
+
+
+
+
+home.addEventListener('click',function affich(){
+
+
+
+homebar.style.display ="block";
+   home.className = "fas fa-times";
+
+
+ home.removeEventListener('click',affich);
+
+
+
+ home.addEventListener('click',function cache(){
+
+
+  home.className = "fas fa-align-justify";
+  homebar.style.display = "none";
+ home.addEventListener('click',affich);
+
+
+});
+
+
+
+
+
+
+
+});
