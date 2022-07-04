@@ -13,6 +13,9 @@ body{
 body,h1,h2,h3,h4,h5,p,strong{
 font-family: roboto;
 }
+p,strong,{
+  font-weight: bold;
+}
 
 header{
   height: 60px;
