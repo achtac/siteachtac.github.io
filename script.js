@@ -13,9 +13,37 @@ window.addEventListener("scroll",(e) =>{
 
 
 
+const sr = ScrollReveal({
+  reset:true
+});
 
 
+sr.reveal("#c1",{
 
+  duration:1000,
+  Delay:2,
+  distance:"40px",
+  origin:"top"
+
+});
+
+sr.reveal("#p1",{
+
+  duration:1000,
+  Delay:2,
+  distance:"40px",
+  origin:"top"
+
+});
+
+sr.reveal("e2",{
+
+  duration:1000,
+  Delay:2,
+  distance:"40px",
+  origin:"top"
+
+});
 
 
 
