@@ -241,7 +241,6 @@ header a {
 #competences #initiatives{
   height:550px;
   width:90%;
-
   background: white;
   display: flex;
   flex-direction: column;
@@ -254,17 +253,15 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 #initiatives #i1 #circle{
-    background-image : url("./image/45.jpg");
+
   height: 200px;
   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size:contain;
-  /* background: #e6e6e6; */
+  background: #e6e6e6;
 
 }
 #circle img {
@@ -521,12 +518,13 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   align-items: center;
 }
 #initiatives #i1 #circle{
-  background-image : url("./image/45.jpg");
+
   height: 200px;
   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #e6e6e6;
 
 }
 #circle img {
@@ -639,12 +637,13 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   align-items: center;
 }
 #initiatives #i1 #circle{
-  background-image : url("./image/45.jpg");
+
   height: 200px;
   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #e6e6e6;
 
 }
 #circle img {
@@ -886,12 +885,13 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     align-items: center;
   }
   #initiatives #i1 #circle{
-    background-image : url("./image/45.jpg");
+
     height: 200px;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 
   }
   #circle img {
@@ -1255,12 +1255,13 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
       align-items: center;
     }
     #initiatives #i1 #circle{
-      background-image : url("./image/45.jpg");
+
       height: 200px;
       width:100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      background: #e6e6e6;
 
     }
     #circle img {
@@ -1709,12 +1710,13 @@ font-family: Inter ;
     align-items: center;
   }
   #initiatives #i1 #circle{
-    background-image : url("./image/45.jpg");
+
     height: 200px;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 
   }
   #circle img {
@@ -2099,12 +2101,13 @@ font-size: 15px;
     align-items: center;
   }
   #initiatives #i1 #circle{
-  background-image : url("./image/45.jpg");
+
     height: 200px;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 
   }
   #circle img {
@@ -2434,7 +2437,6 @@ font-size: 15px;
     align-items: center;
   }
   #initiatives #i1 #circle{
-      background-image : url("./image/45.jpg");
 
     height: 200px;
     width:100%;
@@ -2554,12 +2556,13 @@ font-size: 15px;
     align-items: center;
   }
   #initiatives #i1 #circle{
-      background-image : url("./image/45.jpg");
+
     height: 200px;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 
   }
   #circle img {
@@ -2801,13 +2804,13 @@ font-size: 15px;
       align-items: center;
     }
     #initiatives #i1 #circle{
-        background-image : url("./image/45.jpg");
 
       height: 200px;
       width:100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      background: #e6e6e6;
 
     }
     #circle img {
@@ -3407,12 +3410,13 @@ font-size: 15px;
     align-items: center;
   }
   #initiatives #i1 #circle{
-    background-image : url("./image/45.jpg");
+
     height: 200px;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 
   }
   #circle img {
@@ -3776,7 +3780,6 @@ font-size: 15px;
     align-items: center;
   }
   #initiatives #i1 #circle{
-      background-image : url("./image/45.jpg");
 
     height: 200px;
     width:100%;
